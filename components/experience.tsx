@@ -9,7 +9,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "Digiwhiz",
     period: "Feb 2024 - Mar 2025",
-    location: "Ahmadabad",
+    location: "Ahmedabad",
     type: "Full-time",
     responsibilities: [
       "Translated Figma designs into responsive landing pages, ensuring a seamless user interface.",

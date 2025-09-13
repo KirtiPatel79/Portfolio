@@ -7,6 +7,7 @@ import Header from "@/components/header"
 import { Suspense } from "react"
 import Loading from "@/components/loading"
 import { Analytics } from "@vercel/analytics/next"
+import VisitorTracker  from "@/components/VisitorTracker"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -103,6 +104,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
       <Analytics/>
+      <VisitorTracker />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

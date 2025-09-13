@@ -184,7 +184,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-1 justify-center">
               <MapPin className="h-4 w-4" />
-              <span>Gujrat, India</span>
+              <span>Gujarat, India</span>
             </div>
           </div>
 
