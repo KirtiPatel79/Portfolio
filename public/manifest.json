@@ -1,0 +1,21 @@
+{
+  "name": "Kirti Patel - Software Developer Portfolio",
+  "short_name": "Kirti Patel",
+  "description": "Portfolio of Kirti Patel, a passionate Software Developer specializing in React, Next.js, and modern web technologies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.jpg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "portfolio", "developer"],
+  "lang": "en",
+  "dir": "ltr"
+}
