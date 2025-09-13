@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header"
 import { Suspense } from "react"
 import Loading from "@/components/loading"
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -101,6 +102,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
       </head>
       <body className={inter.className}>
+      <Analytics/>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
