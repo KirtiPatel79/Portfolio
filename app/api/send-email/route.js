@@ -31,13 +31,6 @@ export async function POST(request) {
     const ip = getClientIP(request);
     const deviceInfo = getDeviceInfo(request);
 
-    console.log("Form submission details:", {
-      name,
-      email,
-      ip,
-      deviceInfo,
-    });
-
     // Send to Web3Forms with additional info
     const web3FormsResponse = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

@@ -18,12 +18,6 @@ export async function POST(request) {
     const ip = getClientIP(request)
     const deviceInfo = getDeviceInfo(request)
 
-    console.log('Visitor details:', {
-      ip,
-      deviceInfo,
-      page,
-      referrer
-    })
 
     // Send Discord notification for visitor
     await sendDiscordWebhook(DISCORD_WEBHOOK_URL, {
