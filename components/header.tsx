@@ -9,10 +9,10 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const navItems = [
   { name: "About", href: "#" },
-  { name: "Experience", href: "#experience" },
-  { name: "Education", href: "#education" },
   { name: "Skills", href: "#skills" },
+  { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
+  { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
 ]
 

@@ -12,7 +12,7 @@ import VisitorTracker  from "@/components/VisitorTracker"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kirti Patel - Software Developer | Full Stack Developer",
+  title: "Kirti Patel - Software Developer",
   description: "Portfolio of Kirti Patel, a passionate Software Developer specializing in React, Next.js, and modern web technologies. Explore my projects, skills, and professional experience.",
   keywords: [
     "Kirti Patel",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Kirti Patel - Software Developer | Full Stack Developer",
+    title: "Kirti Patel - Software Developer",
     description: "Portfolio of Kirti Patel, a passionate Software Developer specializing in React, Next.js, and modern web technologies. Explore my projects, skills, and professional experience.",
     url: 'https://kpatel.site',
     siteName: 'Kirti Patel Portfolio',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Kirti Patel - Software Developer | Full Stack Developer",
+    title: "Kirti Patel - Software Developer",
     description: "Portfolio of Kirti Patel, a passionate Software Developer specializing in React, Next.js, and modern web technologies.",
     images: ['/og-image.png'],
     creator: '@kirtipatel79',
