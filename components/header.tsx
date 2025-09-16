@@ -24,7 +24,7 @@ const scrollToSection = (href: string) => {
 
   const element = document.querySelector(href)
   if (element) {
-    const headerHeight = 80 // Approximate header height
+    const headerHeight = 70 // Approximate header height
     const elementPosition = element.getBoundingClientRect().top
     const offsetPosition = elementPosition + window.pageYOffset - headerHeight
 

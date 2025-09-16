@@ -67,7 +67,7 @@ export default function Projects() {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="text-3xl font-bold mb-10">Projects</h2>
+        <h2 className="text-3xl text-center font-bold mb-10">Projects</h2>
 
         <div className="grid gap-10">
           {projects.map((project, index) => (
