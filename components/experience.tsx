@@ -17,7 +17,7 @@ const experiences = [
       "Built scalable and accessible UI components with Tailwind CSS, enabling faster development cycles.",
       "Implemented data fetching strategies with GraphQL within the Next.js environment, optimizing for performance and data integrity.",
     ],
-    skills: ["Next.js","ReactJs", "JavaScript", "TailwindCSS", "GraphQL"],
+    skills: ["Next.js","ReactJs", "JavaScript", "TailwindCSS", "GraphQL", "jQuery", "Umbraco", "SCSS/SASS"],
     icon: <Code className="h-5 w-5" />,
   },
   {

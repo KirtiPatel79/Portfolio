@@ -22,23 +22,22 @@ const projects = [
       "Integrated Notion as CMS for managing blogs and content",
     ],
   },
-  // {
-  //   logo: "/englishexpresswayLogo.svg",
-  //   title: "English Expressway",
-  //   description:
-  //     "An online platform to join courses and buy ebooks to learn English, featuring role-based authentication and payment integration.",
-  //   image: "/englishexpressway.webp",
-  //   tags: ["Next.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "Razorpay"],
-  //   demoUrl: "https://www.englishexpressway.com/",
-  //   githubUrl: "",
-  //   features: [
-  //     "Role-based authentication using NextAuth.js and JWT",
-  //     "Integrated Razorpay for payment transactions",
-  //     "Responsive landing page with course listings",
-  //     "User dashboard for enrolled courses",
-  //     "Admin dashboard for content management",
-  //   ],
-  // },
+  {
+    logo: "/",
+    title: "Seculyzer",
+    description:
+      "An online platform to analyze your website's security posture, SEO performance, Social Previews, and vulnerabilities with our AI-powered analysis engine.",
+    image: "/secureanalyzer-kpatel-site.jpg",
+    tags: ["Next.js", "Typescript", "Tailwind CSS"],
+    demoUrl: "https://secureanalyzer.kpatel.site/",
+    githubUrl: "",
+    features: [
+
+      "Comprehensive SEO audit with metadata, structure, and mobile optimization checks",
+      "Deep scan for common web vulnerabilities and exposure risks",
+      "See how your website appears when shared across different social media platforms and messaging apps",
+    ],
+  },
   // {
   //   logo: "/thankquizLogo.svg",
   //   title: "ThankQuiz",
