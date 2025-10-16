@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Github, ExternalLink } from "lucide-react"
 import Link from "next/link"
+import { trackCustomButton } from "@/lib/click_analytics"
 
 const projects = [
   {
@@ -112,7 +113,7 @@ export default function Projects() {
                 </div>
 
                 <div className="flex gap-3 pt-2">
-                  <Button size="sm">
+                  <Button size="sm" onClick={() => trackCustomButton(`Project: ${project.title} - Live Demo`)} >
                     <Link
                       href={project.demoUrl}
                       className="flex items-center"

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Download, Mail, MapPin } from "lucide-react";
+import { trackCustomButton } from "@/lib/click_analytics";
 import Link from "next/link";
 
 export default function Hero() {
@@ -197,7 +198,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-2 sm:gap-3 justify-center">
             <Link href="/KpResume.pdf" target="_blank" >
-              <Button size="sm" className="text-xs sm:text-sm">
+              <Button size="sm" className="text-xs sm:text-sm" onClick={() => trackCustomButton('Resume Click')}>
                 <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Resume
               </Button>
             </Link>
@@ -206,6 +207,7 @@ export default function Hero() {
                 variant="outline"
                 size="sm"
                 className="text-xs sm:text-sm"
+                onClick={() => trackCustomButton('Github Click')}
               >
                 <Github className="h-3 w-3 sm:h-4 sm:w-4" />
               </Button>
@@ -215,6 +217,7 @@ export default function Hero() {
                 variant="outline"
                 size="sm"
                 className="text-xs sm:text-sm"
+                onClick={() => trackCustomButton('Mail Click')}
               >
                 <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
               </Button>
@@ -224,6 +227,7 @@ export default function Hero() {
                 variant="outline"
                 size="sm"
                 className="text-xs sm:text-sm"
+                onClick={() => trackCustomButton('LinkedIn Click')}
               >
                 <Linkedin className="h-3 w-3 sm:h-4 sm:w-4" />
               </Button>
